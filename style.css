@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #E9E0C9;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipes {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: auto auto;
+}
+
+@media (max-width:801px) {
+    .recipes {
+        display: block;
+        align-items: stretch;
+        justify-content: space-between;
+        margin: auto auto;
+    }  
+}
+
+.recipes a button {
+    font-size: 24px;
+}
+
+button {
+    margin: 5px 0 5px 0;
+}
+
+button:hover {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    margin: 2px 0 2px 0;
+}
+
+.directions li {
+    margin-bottom: 15px;
+}
