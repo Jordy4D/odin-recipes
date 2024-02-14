@@ -12,10 +12,15 @@ img {
 }
 
 .recipes {
-    display: flex;
+    display: inline-flex;
     align-items: stretch;
     justify-content: space-between;
     margin: auto auto;
+    text-align: center;
+}
+
+.recipes span {
+    margin: 0 5px;
 }
 
 @media (max-width:801px) {
@@ -24,6 +29,7 @@ img {
         align-items: stretch;
         justify-content: space-between;
         margin: auto auto;
+        text-align: center;
     }  
 }
 
